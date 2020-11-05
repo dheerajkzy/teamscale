@@ -3,7 +3,8 @@
 std::size_t find_new_line(const char *str,const std::size_t size)
 {
 	std::size_t loc = 0;
-	while((loc < size) && (str[loc] != '\n'))
+	while((loc < size) &&
+		 (str[loc] != '\n'))
 	{
 		++loc;
 	}
